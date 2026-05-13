@@ -1,0 +1,15 @@
+2026-05-13 19:23:32.887 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-13 19:23:33.290 +05:30 [INF] POST /api/auth/register => 201 in 402ms
+2026-05-13 19:23:33.617 +05:30 [INF] POST /api/auth/register => 201 in 319ms
+2026-05-13 19:23:33.646 +05:30 [INF] GET /api/doctors => 200 in 27ms
+2026-05-13 19:23:33.672 +05:30 [INF] POST /api/appointments => 201 in 24ms
+2026-05-13 19:23:33.696 +05:30 [INF] PUT /api/appointments/ed6ece6d-ac34-4ea5-ac5e-c22efc185c00/confirm => 200 in 21ms
+2026-05-13 19:23:33.721 +05:30 [INF] POST /api/sessions/1245a59f-bec3-4676-8de0-84d65140d328/start => 200 in 23ms
+2026-05-13 19:23:33.772 +05:30 [INF] POST /api/sessions/1245a59f-bec3-4676-8de0-84d65140d328/messages => 201 in 45ms
+2026-05-13 19:23:33.790 +05:30 [INF] POST /api/sessions/1245a59f-bec3-4676-8de0-84d65140d328/messages => 201 in 14ms
+2026-05-13 19:23:33.823 +05:30 [INF] GET /api/sessions/1245a59f-bec3-4676-8de0-84d65140d328/messages => 200 in 32ms
+2026-05-13 19:23:33.849 +05:30 [INF] POST /api/sessions/1245a59f-bec3-4676-8de0-84d65140d328/end => 200 in 16ms
+2026-05-13 19:23:33.874 +05:30 [INF] GET /api/appointments/ed6ece6d-ac34-4ea5-ac5e-c22efc185c00 => 200 in 23ms
+2026-05-13 19:23:33.906 +05:30 [INF] POST /api/prescriptions => 201 in 30ms
+2026-05-13 19:23:33.951 +05:30 [INF] GET /api/patients/me/prescriptions => 200 in 38ms
+2026-05-13 19:23:33.979 +05:30 [INF] POST /api/reviews => 201 in 24ms

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ConsultationApi.Core/ConsultationApi.Core.csproj" />
+  <Project Path="ConsultationApi.Infrastructure/ConsultationApi.Infrastructure.csproj" />
+  <Project Path="ConsultationApi.Tests/ConsultationApi.Tests.csproj" />
+  <Project Path="ConsultationApi/ConsultationApi.csproj" />
+</Solution>

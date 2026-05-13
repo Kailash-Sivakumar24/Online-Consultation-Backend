@@ -1,0 +1,8 @@
+2026-05-12 22:38:07.517 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-12 22:38:07.768 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-12 22:38:07.830 +05:30 [INF] POST /api/auth/register => 201 in 313ms
+2026-05-12 22:38:08.065 +05:30 [INF] POST /api/auth/register => 201 in 296ms
+2026-05-12 22:38:08.194 +05:30 [INF] POST /api/auth/register => 201 in 355ms
+2026-05-12 22:38:08.416 +05:30 [INF] GET /api/doctors => 200 in 220ms
+2026-05-12 22:38:08.692 +05:30 [INF] POST /api/appointments => 201 in 253ms
+2026-05-12 22:38:08.804 +05:30 [INF] PUT /api/appointments/e99b7488-2ea2-4158-9c28-868543d3bbe1/confirm => 200 in 104ms

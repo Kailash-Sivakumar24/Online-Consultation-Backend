@@ -1,0 +1,2 @@
+2026-05-12 22:37:02.327 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-12 22:37:02.345 +05:30 [INF] GET /api/appointments => 401 in 17ms

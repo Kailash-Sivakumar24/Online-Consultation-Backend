@@ -1,0 +1,69 @@
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfo.cs
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.deps.json
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.runtimeconfig.json
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.dll
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.pdb
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\Consulta.FA6E278C.Up2Date
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\refint\ConsultationApi.Infrastructure.dll
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.genruntimeconfig.cache
+C:\Users\kaila\Downloads\MVP\Online Consultation Backend Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ref\ConsultationApi.Infrastructure.dll
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.deps.json
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.runtimeconfig.json
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.dll
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.pdb
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfo.cs
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\Consulta.FA6E278C.Up2Date
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\refint\ConsultationApi.Infrastructure.dll
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.genruntimeconfig.cache
+C:\Users\KailashSivakumar\Downloads\Online-Consultation-Backend-Service-main\ConsultationApi.Infrastructure\obj\Debug\net8.0\ref\ConsultationApi.Infrastructure.dll
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.deps.json
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.runtimeconfig.json
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.dll
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.pdb
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfo.cs
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.sourcelink.json
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\Consulta.FA6E278C.Up2Date
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\refint\ConsultationApi.Infrastructure.dll
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.genruntimeconfig.cache
+C:\Users\kaila\Downloads\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ref\ConsultationApi.Infrastructure.dll
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.deps.json
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.runtimeconfig.json
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.dll
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\bin\Debug\net8.0\ConsultationApi.Core.pdb
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.AssemblyInfo.cs
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\Consulta.FA6E278C.Up2Date
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.dll
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\refint\ConsultationApi.Infrastructure.dll
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.pdb
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ConsultationApi.Infrastructure.genruntimeconfig.cache
+C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Infrastructure\obj\Debug\net8.0\ref\ConsultationApi.Infrastructure.dll
