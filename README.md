@@ -1,6 +1,6 @@
 # Online Consultation Backend Service
 
-A production-ready .NET 8 backend for an online doctor consultation platform.
+A .NET 8 backend for an online doctor consultation platform.
 
 ## Tech Stack
 
@@ -47,7 +47,7 @@ cd ConsultationApi
 dotnet user-secrets init
 dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Host=localhost;Port=5432;Database=consultation;Username=postgres;Password=yourpassword"
 dotnet user-secrets set "JwtSettings:SecretKey" "your-minimum-32-character-secret-key-here"
-dotnet user-secrets list || dotnet user-secrets list --project ConsultationAp
+dotnet user-secrets list || dotnet user-secrets list --project ConsultationApi
 ```
 
 ### 3. Required Environment Variables (production)
@@ -100,7 +100,7 @@ Swagger UI is available at `https://localhost:xxxx/swagger` in Development mode.
 dotnet test --filter "FullyQualifiedName~Unit"
 ```
 
-### All tests (requires Docker for Testcontainers)
+### All tests (follow Integration test steps given below to run All tests - no Docker)
 
 ```bash
 dotnet test
@@ -166,7 +166,8 @@ dotnet test --collect:"XPlat Code Coverage"
 # Then generate HTML report with reportgenerator:
 dotnet tool install -g dotnet-reportgenerator-globaltool
 reportgenerator -reports:"**/coverage.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html
-or
+```
+```or bash (coverage report for only Core and Infrastructure layer)
 dotnet test --settings ConsultationApi.Tests/coverage.runsettings
 reportgenerator -reports:"**/coverage.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html
 ```
