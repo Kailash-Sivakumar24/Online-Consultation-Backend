@@ -5,20 +5,23 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using StackExchange.Redis;
 using Testcontainers.PostgreSql;
+using Testcontainers.Redis;
 
 namespace ConsultationApi.Tests.Integration;
 
 public class IntegrationTestBase : IAsyncLifetime
 {
     private PostgreSqlContainer? _postgres;
+    private RedisContainer? _redis;
 
     protected HttpClient Client { get; private set; } = null!;
     protected WebApplicationFactory<Program> Factory { get; private set; } = null!;
 
     public async Task InitializeAsync()
     {
-        // If INTEGRATION_DB is set, use that connection string and skip Docker.
+        // If INTEGRATION_DB is set, use that connection string and skip Docker for Postgres.
         var envConn = Environment.GetEnvironmentVariable("INTEGRATION_DB");
 
         if (string.IsNullOrWhiteSpace(envConn))
@@ -30,12 +33,17 @@ public class IntegrationTestBase : IAsyncLifetime
             await _postgres.StartAsync();
         }
 
+        _redis = new RedisBuilder().Build();
+        await _redis.StartAsync();
+
         var connectionStringToUse = envConn ?? _postgres!.GetConnectionString();
+        var redisConnectionString = _redis.GetConnectionString();
 
         Factory = new WebApplicationFactory<Program>()
             .WithWebHostBuilder(host =>
             {
                 host.UseEnvironment("Testing");
+                host.UseSetting("Redis:ConnectionString", redisConnectionString);
                 host.ConfigureServices(services =>
                 {
                     var descriptor = services.SingleOrDefault(
@@ -60,6 +68,9 @@ public class IntegrationTestBase : IAsyncLifetime
     {
         if (_postgres != null)
             await _postgres.StopAsync();
+
+        if (_redis != null)
+            await _redis.StopAsync();
 
         if (Factory != null)
             await Factory.DisposeAsync();

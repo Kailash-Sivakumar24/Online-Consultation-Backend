@@ -7,6 +7,7 @@ using ConsultationApi.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using StackExchange.Redis;
 
 namespace ConsultationApi.Infrastructure;
 
@@ -19,8 +20,20 @@ public static class DependencyInjection
 
         services.AddMemoryCache();
 
+        var redisConn = configuration["Redis:ConnectionString"];
+        if (!string.IsNullOrWhiteSpace(redisConn))
+        {
+            services.AddSingleton<IConnectionMultiplexer>(
+                ConnectionMultiplexer.Connect(redisConn));
+            services.AddScoped<ICacheService, LayeredCacheService>();
+            services.AddHostedService<RedisCacheInvalidationListener>();
+        }
+        else
+        {
+            services.AddScoped<ICacheService, MemoryCacheService>();
+        }
+
         services.AddScoped<IUnitOfWork, UnitOfWork>();
-        services.AddScoped<ICacheService, MemoryCacheService>();
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<IDoctorService, DoctorService>();
         services.AddScoped<IAppointmentService, AppointmentService>();

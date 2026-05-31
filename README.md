@@ -11,7 +11,8 @@ A .NET 8 backend for an online doctor consultation platform.
 - **Validation**: FluentValidation
 - **Mapping**: AutoMapper
 - **Logging**: Serilog (console + rolling file)
-- **Testing**: xUnit, Moq, Testcontainers (PostgreSQL), FluentAssertions
+- **Caching**: Redis (L1/L2 layered — `IMemoryCache` per-instance + shared Redis with Pub/Sub invalidation)
+- **Testing**: xUnit, Moq, Testcontainers (PostgreSQL + Redis), FluentAssertions
 
 ## Project Structure
 
@@ -26,7 +27,8 @@ ConsultationApi.Tests/     # xUnit unit + integration tests
 
 - .NET 8 SDK
 - PostgreSQL 14+
-- Docker (for integration tests with Testcontainers)
+- Redis 6+ (optional for local dev — app falls back to in-memory cache if not configured)
+- Docker (for integration tests with Testcontainers, or to run Redis locally)
 
 ## Setup
 
@@ -50,7 +52,43 @@ dotnet user-secrets set "JwtSettings:SecretKey" "your-minimum-32-character-secre
 dotnet user-secrets list || dotnet user-secrets list --project ConsultationApi
 ```
 
-### 3. Required Environment Variables (production)
+### 3. Configure Redis (optional for local dev)
+
+Redis enables the L1/L2 layered cache with cross-instance invalidation via Pub/Sub. Without it the app runs fine using in-process `IMemoryCache` only.
+
+#### Option A — Docker (recommended, one command)
+
+```bash
+docker run -d -p 6379:6379 --name redis redis:alpine
+```
+
+Stop it later with `docker stop redis`. Start again with `docker start redis`.
+
+#### Option B — WSL2 (Ubuntu)
+
+Open your WSL2 terminal:
+
+```bash
+sudo apt update && sudo apt install redis-server -y
+sudo service redis-server start
+# verify it's running
+redis-cli ping   # should return PONG
+```
+
+#### Set the connection string via user-secrets
+
+```bash
+cd ConsultationApi
+dotnet user-secrets set "Redis:ConnectionString" "localhost:6379"
+# For a cloud instance with a password:
+# dotnet user-secrets set "Redis:ConnectionString" "password@host:port,ssl=True"
+```
+
+> If `Redis:ConnectionString` is empty or missing, the app silently falls back to `MemoryCacheService`. No restart is required — just set the secret and rerun.
+
+---
+
+### 4. Required Environment Variables (production)
 
 | Variable | Description |
 |---|---|
@@ -60,6 +98,7 @@ dotnet user-secrets list || dotnet user-secrets list --project ConsultationApi
 | `JwtSettings__Audience` | JWT audience (default: `ConsultationApiUsers`) |
 | `JwtSettings__AccessTokenExpiryMinutes` | Access token TTL (default: 15) |
 | `JwtSettings__RefreshTokenExpiryDays` | Refresh token TTL (default: 7) |
+| `Redis__ConnectionString` | Redis connection string (e.g. `localhost:6379`). Leave empty to use in-memory cache only. |
 
 ## Running Migrations
 
@@ -100,10 +139,18 @@ Swagger UI is available at `https://localhost:xxxx/swagger` in Development mode.
 dotnet test --filter "FullyQualifiedName~Unit"
 ```
 
-### All tests (follow Integration test steps given below to run All tests - no Docker)
+### All tests (follow Integration test steps given below to run all tests - no Docker)
 
 ```bash
 dotnet test
+```
+
+### Integration tests with Testcontainers (Docker required)
+
+Integration tests automatically spin up isolated **PostgreSQL** and **Redis** containers via Testcontainers — no manual database or Redis setup needed. Just make sure Docker Desktop is running:
+
+```bash
+dotnet test --filter "FullyQualifiedName~Integration"
 ```
 
 ### Integration tests (use local PostgreSQL — no Docker)

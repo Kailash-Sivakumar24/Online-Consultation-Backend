@@ -1,3 +1,0 @@
-2026-05-13 19:23:30.994 +05:30 [WRN] Failed to determine the https port for redirect.
-2026-05-13 19:23:31.349 +05:30 [INF] POST /api/auth/register => 201 in 355ms
-2026-05-13 19:23:31.358 +05:30 [INF] PUT /api/appointments/4c865f3d-1bad-4f40-bc14-e218ab566318/confirm => 403 in 3ms
