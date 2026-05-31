@@ -43,3 +43,15 @@ C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Deb
 C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\refint\ConsultationApi.Core.dll
 C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.pdb
 C:\Learning\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ref\ConsultationApi.Core.dll
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\bin\Debug\net8.0\ConsultationApi.Core.deps.json
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\bin\Debug\net8.0\ConsultationApi.Core.dll
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\bin\Debug\net8.0\ConsultationApi.Core.pdb
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.AssemblyInfoInputs.cache
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.AssemblyInfo.cs
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.sourcelink.json
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.dll
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\refint\ConsultationApi.Core.dll
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ConsultationApi.Core.pdb
+C:\Users\kaila\Downloads\Projects\MVP\Online-Consultation-Backend-Service\ConsultationApi.Core\obj\Debug\net8.0\ref\ConsultationApi.Core.dll
