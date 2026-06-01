@@ -300,9 +300,9 @@ namespace ConsultationApi.Infrastructure.Migrations
                 columns: new[] { "Id", "CreatedAt", "DeletedAt", "Email", "IsActive", "PasswordHash", "Role", "UpdatedAt" },
                 values: new object[,]
                 {
-                    { new Guid("00000000-0000-0000-0000-000000000001"), new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), null, "admin@consultation.com", true, "$2a$11$7kJhEK0JvJawGfFsm/Hz.ODQ8maDFVP68H2trrmFTcdPCHpKzFyAC", "Admin", new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc) },
-                    { new Guid("00000000-0000-0000-0000-000000000002"), new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), null, "doctor@consultation.com", true, "$2a$11$7xNSV79DlE4Tlp990MFauuRs2ZPpLK68gv0n2edE4I7jYw/f9uchO", "Doctor", new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc) },
-                    { new Guid("00000000-0000-0000-0000-000000000003"), new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), null, "patient@consultation.com", true, "$2a$11$hKchsHWemt7nGFYQ0AgQce/jL.DmjdQALGixgWvXSb8UrsGjlkvEu", "Patient", new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc) }
+                    { new Guid("00000000-0000-0000-0000-000000000001"), new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), null, "admin@consultation.com", true, "$2a$11$iSxYAw4CYAbXrAtBPThs9OFMJu/h3lHukU1dp97Bc56hqq9czpAzC", "Admin", new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc) },
+                    { new Guid("00000000-0000-0000-0000-000000000002"), new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), null, "doctor@consultation.com", true, "$2a$11$9Q41qPZ9OSNie63RFlV/0OjrVrYBec5CCNNKf9QoaZe.Lk6xtTB7u", "Doctor", new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc) },
+                    { new Guid("00000000-0000-0000-0000-000000000003"), new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), null, "patient@consultation.com", true, "$2a$11$PcuogU0wpFYES1DmcsdU8eYdoPozW5fGXsrNPM0hKHMcbdrF2ExN6", "Patient", new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc) }
                 });
 
             migrationBuilder.InsertData(

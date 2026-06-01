@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ConsultationApi.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260510175032_InitialCreate")]
+    [Migration("20260601115749_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -506,7 +506,7 @@ namespace ConsultationApi.Infrastructure.Migrations
                             CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Email = "admin@consultation.com",
                             IsActive = true,
-                            PasswordHash = "$2a$11$7kJhEK0JvJawGfFsm/Hz.ODQ8maDFVP68H2trrmFTcdPCHpKzFyAC",
+                            PasswordHash = "$2a$11$iSxYAw4CYAbXrAtBPThs9OFMJu/h3lHukU1dp97Bc56hqq9czpAzC",
                             Role = "Admin",
                             UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)
                         },
@@ -516,7 +516,7 @@ namespace ConsultationApi.Infrastructure.Migrations
                             CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Email = "doctor@consultation.com",
                             IsActive = true,
-                            PasswordHash = "$2a$11$7xNSV79DlE4Tlp990MFauuRs2ZPpLK68gv0n2edE4I7jYw/f9uchO",
+                            PasswordHash = "$2a$11$9Q41qPZ9OSNie63RFlV/0OjrVrYBec5CCNNKf9QoaZe.Lk6xtTB7u",
                             Role = "Doctor",
                             UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)
                         },
@@ -526,7 +526,7 @@ namespace ConsultationApi.Infrastructure.Migrations
                             CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Email = "patient@consultation.com",
                             IsActive = true,
-                            PasswordHash = "$2a$11$hKchsHWemt7nGFYQ0AgQce/jL.DmjdQALGixgWvXSb8UrsGjlkvEu",
+                            PasswordHash = "$2a$11$PcuogU0wpFYES1DmcsdU8eYdoPozW5fGXsrNPM0hKHMcbdrF2ExN6",
                             Role = "Patient",
                             UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)
                         });
