@@ -1,2 +1,0 @@
-2026-05-13 19:23:28.684 +05:30 [WRN] Failed to determine the https port for redirect.
-2026-05-13 19:23:29.082 +05:30 [INF] POST /api/auth/register => 201 in 398ms
